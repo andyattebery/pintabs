@@ -32,12 +32,14 @@
     var tabsList = document.getElementById("tabsList");
     var tabsListItems = tabsList.getElementsByTagName("li");
     
-    for (var i = 0, len = tabListItems.length; i < len; i++) {
+    for (var i = 0, len = tabsListItems.length; i < len; i++) {
       tabsList.removeChild(tabListItems[i]);
     }
     
     tabs.forEach(function(element, index, array) {
-      addTabToList(tabsList, element.title)
+	  if (element.title) {
+        addTabToList(tabsList, element.title)
+      }
     });
     
   }
