@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Andy Attebery</string>
+	<key>Builder Version</key>
+	<string>9537.73.11</string>
+	<key>CFBundleDisplayName</key>
+	<string>PinTabs</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.andyattebery.pintabs</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>save_tabs.html</string>
+				<key>Height</key>
+				<real>200</real>
+				<key>Identifier</key>
+				<string>save-tabs-popover</string>
+				<key>Width</key>
+				<real>300</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string></string>
+				<key>Identifier</key>
+				<string>save-tabs</string>
+				<key>Image</key>
+				<string>pin.png</string>
+				<key>Label</key>
+				<string>Save Tabs</string>
+				<key>Popover</key>
+				<string>save-tabs-popover</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Saves and restores tabs by tag to and from Pinboard.in</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/andyattebery/pintabs</string>
+</dict>
+</plist>
