@@ -33,7 +33,7 @@
     var tabsListItems = tabsList.getElementsByTagName("li");
     
     for (var i = 0, len = tabsListItems.length; i < len; i++) {
-      tabsList.removeChild(tabListItems[i]);
+      tabsList.removeChild(tabsListItems[i]);
     }
     
     tabs.forEach(function(element, index, array) {
